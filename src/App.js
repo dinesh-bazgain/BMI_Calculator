@@ -2,8 +2,8 @@ import "./App.css";
 import React, { useState } from "react";
 
 function App() {
-  const [weight, setWeight] = useState(0);
-  const [height, setHeight] = useState(0);
+  const [weight, setWeight] = useState("");
+  const [height, setHeight] = useState("");
   const [bmi, setBMI] = useState("");
   const [message, setMessage] = useState("");
 
@@ -12,7 +12,7 @@ function App() {
     if (weight === 0 || height === 0) {
       alert("Please enter a valid Weight and Height !!!");
     } else {
-      let bmi = (weight / (height * height)) * 703;
+      let bmi = weight / (height / 100) ** 2;
       setBMI(bmi.toFixed(1));
 
       if (bmi < 16) {
@@ -45,21 +45,21 @@ function App() {
         <h2>BMI Calculator</h2>
         <form onSubmit={calculateBMI}>
           <div>
-            <label>Weight (lbs)</label>
+            <label>Weight (KG)</label>
             <input
               type="text"
-              placeholder="Enter your Weight"
+              placeholder="Enter your Weight in KG"
               value={weight}
               onChange={(e) => setWeight(e.target.value)}
             />
           </div>
           <div>
-            <label>Height (In)</label>
+            <label>Height (Cm)</label>
             <input
               type="text"
-              placeholder="Enter your Height"
+              placeholder="Enter your Height in CM"
               value={height}
-              onChange={(event) => setHeight(event.target.value)}
+              onChange={(e) => setHeight(e.target.value)}
             />
           </div>
           <div>
