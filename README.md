@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# BMI Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React-based app that calculates Body Mass Index (BMI) using user-provided weight in kilograms and height in centimeters. It gives instant health category feedback based on the BMI result.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Calculates the bmi according to your weight and height.
+- Displays your bmi value and weight condition.
+- Clean and minimal UI.
+- Responsive design for all screen sizes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- HTML, CSS, JavaScript, React.js
+- Formula to calculate bmi => [weight / (height / 100) ** 2]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Check out the live version here [Live Demo](https://dinesh-bazgain.github.io/BMI_Calculator/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- A modern web browser (Chrome, Firefox, etc.)
+- Internet connection
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### How to Run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Clone the repo: => git clone https://dinesh-bazgain.github.io/BMI_Calculator/
+- Open the folder in code editor.
+- In the terminal change the path to current working directory.
+- Type "npm start" and hit enter.
+- Copy the localhost link provided and paste in any browser and enjoy.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Usage
 
-## Learn More
+- Enter your body weight and height.
+- Click the submmit button or click the reload if you enter the incorrect value.
+- Get your BMI value and weight status instantly!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Known Issues
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- No option to enter the value in different units.
+- Styling may vary across older browsers.
+- UI could be improved for accessibility
 
-### Code Splitting
+### Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Add the option to enter the value in different inits.
+- Dark/light mode toggle.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+MIT License © 2025 Dinesh Bajgain
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to reach out to me via [email](dinesh.bazgain@gmail.com) or open an issue on GitHub!
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Happy coding and converting!!!
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Demo image of the project](assets/images/demo_image.png)
