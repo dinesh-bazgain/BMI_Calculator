@@ -63,10 +63,10 @@ function App() {
             />
           </div>
           <div>
-            <button className="btn" type="submmit">
-              Submmit
+            <button className="btn" type="submit">
+              Submit
             </button>
-            <button className="btn" onClick={reload} type="submmit">
+            <button className="btn" onClick={reload} type="submit">
               Reload
             </button>
           </div>
