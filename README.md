@@ -80,10 +80,10 @@ Feel free to reach out to me via [email](dinesh.bazgain@gmail.com) or open an is
 
 ---
 
-### Demo Interface
+## Demo Interface
 
 ![Demo image of the project](/assets/images/demo_image.png)
 
 ---
 
-## Happy coding and converting!!!
+### Happy coding and converting!!!
