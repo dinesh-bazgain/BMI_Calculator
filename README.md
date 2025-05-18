@@ -24,7 +24,7 @@ A simple React-based web app that calculates Body Mass Index (BMI) using user-pr
 
 ## Demo
 
-Check out the live version here [Live Demo](https://dinesh-bazgain.github.io/BMI_Calculator/)
+Check out the live version here [Live Demo](https://bmi-calculator-by-mrbajgain.netlify.app/)
 
 ---
 
@@ -80,8 +80,10 @@ Feel free to reach out to me via [email](dinesh.bazgain@gmail.com) or open an is
 
 ---
 
-### Happy coding and converting!!!
-
 ### Demo Interface
 
 ![Demo image of the project](/assets/images/demo_image.png)
+
+---
+
+## Happy coding and converting!!!
