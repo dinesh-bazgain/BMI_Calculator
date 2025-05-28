@@ -40,7 +40,7 @@ Check out the live version here [Live Demo](https://bmi-calculator-by-mrbajgain.
 
 - Clone the repo: => git clone https://github.com/dinesh-bazgain/BMI_Calculator.git/
 - Open the folder in code editor.
-- Navigate into the project directory
+- Navigate into the project directory.
   ~ cd BMI_Calculator
 - Install dependencies
   ~ npm install
