@@ -18,7 +18,7 @@ A simple React-based web app that calculates Body Mass Index (BMI) using user-pr
 - **React.js** – UI rendering & state management
 - **JavaScript (ES6+)** – App logic and interactivity
 - **HTML5 & CSS3** – Structure and styling
-- **BMI Formula:**  BMI = weight (kg) ÷ (height in meters)²
+- **BMI Formula:** BMI = weight (kg) ÷ (height in meters)²
 
 ---
 
@@ -33,8 +33,8 @@ Check out the live version here [Live Demo](https://bmi-calculator-by-mrbajgain.
 ### Prerequisites
 
 - A modern web browser (Chrome, Firefox, etc.)
-- Internet connection
-- Node.js and npm installed
+- Internet connection.
+- Node.js and npm installed.
 
 ### How to Run
 
