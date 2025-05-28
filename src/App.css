@@ -9,12 +9,12 @@
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(to right, #74ebd5, #acb6e5);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Main container for the BMI form */
 .container {
-  background: #ffffff;
+  background: #fff;
   padding: 2rem 3rem;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
